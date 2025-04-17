@@ -19,11 +19,12 @@
           function setRootFontSize() {
               const screenWidth = Math.min( document.documentElement.clientWidth, 1920)
               const baseSize = screenWidth/23.4375
-              setInterval(() => {
-
-                  document.documentElement.style.setProperty('font-size', baseSize + 'px', 'important')
-                  document.documentElement.style.fontSize = baseSize + 'px'
-              }, 300)
+              console.log(baseSize);
+              // setInterval(() => {
+              //
+              //     document.documentElement.style.setProperty('font-size', baseSize + 'px', 'important')
+              //     document.documentElement.style.fontSize = baseSize + 'px'
+              // }, 300)
           }
 
           // 初始化时设置
@@ -35,17 +36,17 @@
           *::-webkit-scrollbar {
               display: none; /* 或设置 width: 0 */
           }
-
+          @media screen and (min-width: 750px) {
+              html { font-size: 32px !important; } /* 标准设计稿尺寸 */
+          }
 
       </style>
 <!--      #endif-->
-    <script type="module" crossorigin src="/assets/index-401430b3.js"></script>
+    <script type="module" crossorigin src="/assets/index-87294201.js"></script>
     <link rel="stylesheet" href="/assets/index-610812ed.css">
   </head>
   <body>
-<!--  @media screen and (min-width: 750px) {-->
-<!--  html { font-size: 32px !important; } /* 标准设计稿尺寸 */-->
-<!--  }-->
+
     <div id="app"><!--app-html--></div>
     
   </body>
