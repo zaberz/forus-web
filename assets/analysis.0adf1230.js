@@ -1,0 +1,1 @@
+import"./index-401430b3.js";import{l as t,r as e}from"./login.a0f9f7ef.js";async function o(o,a){let n=await t(),r=n.openId,s={customer:n.id,openId:r,type:o,name:a};return e({url:"/items/event_log",method:"post",data:s})}export{o as a};
