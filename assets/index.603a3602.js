@@ -1,0 +1,1 @@
+import{aN as n,aO as r,a7 as u}from"./index-aa1ee2fe.js";function i(u){return!!n()&&(r(u),!0)}function s(n,r){const s=u(null==r?void 0:r.initialValue),a=n.subscribe({next:n=>s.value=n,error:null==r?void 0:r.onError});return i((()=>{a.unsubscribe()})),s}function a(n){i((()=>{n.unsubscribe()}))}export{a,s as u};
