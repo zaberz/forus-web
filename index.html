@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="/assets/uni.cd998350.css">
+
+    <meta charset="UTF-8" />
+    <script>
+      var coverSupport = 'CSS' in window && typeof CSS.supports === 'function' && (CSS.supports('top: env(a)') ||
+        CSS.supports('top: constant(a)'))
+      document.write(
+        '<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0' +
+        (coverSupport ? ', viewport-fit=cover' : '') + '" />')
+    </script>
+    <title></title>
+    <!--preload-links-->
+    <!--app-context-->
+<!--      #ifdef H5-->
+      <script>
+          function setRootFontSize() {
+              const screenWidth = document.documentElement.clientWidth
+              const baseSize = screenWidth/23.4375
+              document.documentElement.style.fontSize = baseSize + 'px'
+          }
+
+          // 初始化时设置
+          setRootFontSize();
+          // 监听窗口变化时更新
+          window.addEventListener('resize', setRootFontSize);
+      </script>
+      <style>
+          *::-webkit-scrollbar {
+              display: none; /* 或设置 width: 0 */
+          }
+
+          @media screen and (min-width: 750px) {
+              html { font-size: 32px !important; } /* 标准设计稿尺寸 */
+          }
+      </style>
+<!--      #endif-->
+    <script type="module" crossorigin src="/assets/index-de1f54a6.js"></script>
+    <link rel="stylesheet" href="/assets/index-610812ed.css">
+  </head>
+  <body>
+    <div id="app"><!--app-html--></div>
+    
+  </body>
+</html>
