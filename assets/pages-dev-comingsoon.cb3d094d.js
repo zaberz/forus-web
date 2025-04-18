@@ -1,0 +1,1 @@
+import{o,e as n,w as a,i as e,a as s,f as r}from"./index-13124b1b.js";import{_ as t}from"./_plugin-vue_export-helper.1b428a4d.js";const i=t({name:"comingSoon"},[["render",function(t,i,l,u,c,f){const m=e;return o(),n(m,{class:"container"},{default:a((()=>[s(m,null,{default:a((()=>[r("coming soon")])),_:1})])),_:1})}]]);export{i as default};
